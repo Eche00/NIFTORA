@@ -2,7 +2,7 @@ import { HeaderIcon } from "../svgs/HeaderIcon"
 
 function Header() {
   return (
-    <div className="bg-black">
+    <div className="bg-[#121212] fixed top-0 left-0 w-full z-50">
       {/* container  */}
      <main className="px-[104px] py-[20px] flex items-center justify-between">
        {/* logo */}
