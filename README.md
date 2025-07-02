@@ -1,69 +1,41 @@
-# React + TypeScript + Vite
+# 🎨 NIFTORA — NFT UI Design
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NIFTORA is a sleek, futuristic UI design for an NFT marketplace, crafted to provide a modern, user-first experience. This project showcases the visual layout and component structure for minting, trading, and showcasing NFTs.
 
-Currently, two official plugins are available:
+## 📌 Project Highlights
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ✨ Hero section with bold call-to-action
+- 🖼️ Featured NFT artwork with dynamic visuals
+- 🎛️ Clean grid-based layout
+- 💅 Dark theme with glowing accent colors
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+This is a **design-focused** project, but the UI was structured using:
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **React + Tailwind CSS (Typescript)**
+- Optimized component layering (absolute/fixed elements)
+- Grid and mask-image effects
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 📁 Structure
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🧠 Inspiration
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Design concept provided by a talented UI designer (credit will be added upon completion). Built during a personal lock-in sprint as part of a Web3 learning journey.
+
+## 🚧 Disclaimer
+
+This is **only a UI design**, not a functional dApp. Blockchain logic and wallet integrations are not included yet.
+
+#
+
+## 🔗 License
+
+MIT License — feel free to use, fork, and contribute.
+
+---
+
+Built with love during the grind.  
+Follow the journey: [@Eche_codes](https://twitter.com/Eche_codes)
