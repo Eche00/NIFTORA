@@ -1,4 +1,5 @@
 import { topcollections } from "../../lib/topcollection";
+import '../../styles/styles.css'
 
 function TopCollection() {
 
@@ -38,8 +39,9 @@ function TopCollection() {
 
   return <div>
     <div className=" relative ">
-         {/* test */}
+         {/* bg */}
          <span className="  rounded-full absolute top-[-150px] right-[0px] ">{circle}</span>
+         <span className=" circleBlurL"></span>
          
          <main className="px-[104px] py-[64px] flex flex-col relative">
             <h1 className="text-[48px] font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF] pb-[50px]">
