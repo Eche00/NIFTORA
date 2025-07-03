@@ -9,7 +9,7 @@ function Articles() {
                 </h1>
            
           {/* cards  */}
-            <section className=" flex flex-wrap items-center gap-[24px] gap-y-[40px] justify-center relative py-[100px] max-w-[90%] mx-auto">
+            <section className=" flex flex-wrap items-center gap-[24px] gap-y-[40px] justify-center relative py-[100px] max-w-[95%] mx-auto">
                   
                      {/* each card  */}
                      {articles.map((card)=>(
