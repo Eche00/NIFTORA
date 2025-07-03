@@ -71,7 +71,7 @@ function TopCollection() {
                        {/* bottom details  */}
                        <section className=" flex items-center justify-between">
                         <p className="flex flex-col text-[20px] text-[#FFFFFF] font-[600]">{card?.floorprice}<span className=" text-[12px] text-[#FFFFFF] font-[500]">Floor Price</span></p>
-                        <p className="flex flex-col items-end text-[20px] text-[#FFFFFF] font-[600]">${card?.priceinusd}<span className={`text-[14px] ${card?.x >= 5.0 ? 'text-[#1DFF04]':'text-[#FF0404]'} font-[400]`}>{card?.x >= 5.0 ?'+':'-'}{card?.x}%</span></p>
+                        <p className="flex flex-col items-end text-[20px] text-[#FFFFFF] font-[600]">${card?.priceinusd}<span className={`text-[14px] ${card?.x >= 15.0 ? 'text-[#1DFF04]':'text-[#FF0404]'} font-[400]`}>{card?.x >= 15.0 ?'+':'-'}{card?.x}%</span></p>
                        </section>
                     </div>
                   </div>
