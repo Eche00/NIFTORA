@@ -13,13 +13,13 @@ const ethLogo = (`<svg width="48" height="49" viewBox="0 0 48 49" fill="none" xm
 </svg>`)
 
 export const trending=[
-  {img:'/Hero.png',title:'Proud Ape #00',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:4.99,logo :ethLogo},
-  {img:'/Hero.png',title:'Proud Ape #01',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
-  {img:'/Hero.png',title:'Proud Ape #02',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
-  {img:'/Hero.png',title:'Proud Ape #03',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
-  {img:'/Hero.png',title:'Proud Ape #04',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
-  {img:'/Hero.png',title:'Proud Ape #05',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
-  {img:'/Hero.png',title:'Proud Ape #06',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
-  {img:'/Hero.png',title:'Proud Ape #07',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
-  {img:'/Hero.png',title:'Proud Ape #08',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
+  {img:'/trending1.png',title:'DJ$ #034',subtitle:'dj$',latestbid:'2.6 ETH',from:'1.17 ETH',priceinusd:'768',x:5.34,logo :ethLogo},
+  {img:'/trending2.png',title:'Proud Ape #08',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
+  {img:'/trending3.png',title:'Skygirl 3D #03',subtitle:'3D skygirl',latestbid:'5.61 ETH',from:'2.17 ETH',priceinusd:'2.038',x:1.34,logo :ethLogo},
+  // {img:'/Hero.png',title:'Proud Ape #03',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
+  // {img:'/Hero.png',title:'Proud Ape #04',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
+  // {img:'/Hero.png',title:'Proud Ape #05',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
+  // {img:'/Hero.png',title:'Proud Ape #06',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
+  // {img:'/Hero.png',title:'Proud Ape #07',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
+  // {img:'/Hero.png',title:'Proud Ape #08',subtitle:'Ape',latestbid:'7.6 ETH',from:'2.9 ETH',priceinusd:'3,049',x:8.92,logo :ethLogo},
 ]
