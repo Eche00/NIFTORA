@@ -72,7 +72,7 @@ function Trending() {
                     repeatDelay: 10,
                     repeat: Infinity,
                     repeatType: "loop", // (optional) smoother looping
-                  }} className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit'>See more</motion.button>
+                  }} className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>See more</motion.button>
      </div>
       </main>
     </div>
