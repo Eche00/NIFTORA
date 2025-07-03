@@ -53,7 +53,7 @@ function TopCollection() {
            <button className=' text-[24px] text-[#E0E0E0] font-[600]  bg-[#1F51FF] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Art</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Collectibles</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Metaverse</button>
-           <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Virtual Worlds</button>
+           <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer text-nowrap'>Virtual Worlds</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Sports</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Music</button>
         </motion.div>
