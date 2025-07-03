@@ -2,6 +2,7 @@
 import { trending } from '../../lib/trending';
 import { useState } from 'react';
 import '../../styles/styles.css'
+import { motion } from "framer-motion";
 
 function Trending() {
   const [currentIndex,setCurrentIndex] = useState(0)
@@ -24,12 +25,13 @@ function Trending() {
 
       {/* <div class="absolute inset-0 -z-10 h-full w-full bg-white "></div> */}
       <main className="px-[104px] py-[64px] flex flex-col relative">
-         <h1 className="text-[48px] font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF]">
+         <motion.h1 initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className="text-[48px] font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF]">
            Trending NFTs
-         </h1>
+         </motion.h1>
 
       {/* Trending slide  */}
-        <section className="flex items-center gap-[24px] justify-between relative py-[100px]">
+        <motion.section 
+        initial={{opacity:0,scale:0.5}} whileInView={{opacity:1, scale:1}} transition={{duration:2}} viewport={{ once: true }} className="flex items-center gap-[24px] justify-between relative py-[100px]">
         {/* buttons */}
         <button className="w-[80px] h-[80px] rounded-full bg-[#121212] border-[1px] border-[#E0E0E0] text-[#E0E0E0] text-[40px] flex items-center justify-center absolute top-1/2 left-[30px]  -translate-y-1/2 cursor-pointer  disabled:cursor-not-allowed" onClick={handlePrev} disabled={currentIndex === 0}>
             <IoIosArrowBack />
@@ -57,11 +59,20 @@ function Trending() {
             </div>
           </div>
           ))} 
-        </section>
+        </motion.section>
 
      {/* see more button  */}
      <div className=' w-full flex items-center justify-center'>
-        <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit'>See more</button>
+        <motion.button                   whileInView={{
+                    rotate: [0, -10, 10, -10, 10, 0],
+                  }}
+                  transition={{
+                    duration: 5,
+                    delay: 1,
+                    repeatDelay: 10,
+                    repeat: Infinity,
+                    repeatType: "loop", // (optional) smoother looping
+                  }} className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit'>See more</motion.button>
      </div>
       </main>
     </div>
