@@ -1,6 +1,7 @@
  import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
 import { trending } from '../../lib/trending';
 import { useState } from 'react';
+import '../../styles/styles.css'
 
 function Trending() {
   const [currentIndex,setCurrentIndex] = useState(0)
@@ -18,10 +19,9 @@ function Trending() {
 
   return (
     <div className="py-[124px] relative">
-      {/* test */}
-      {/* <span className=" bg-[#00FFFF80]  w-[423px] h-[423px] rounded-full absolute top-[-100px] right-[-250px] blur-[400px]"></span> */}
-      {/* <span className=" [background:radial-gradient(125%_125%_at_50%_10%,#fff_40%,#63e_100%)]  w-[423px] h-[423px] rounded-full absolute top-[-100px] right-[-250px] blur-[400px]"></span> */}
-      {/* <div className="w-[423px] h-[423px] rounded-full absolute top-[-100px] right-[-250px] bg-neutral-900"><div className="absolute inset-0 bg-[#00FFFF80] bg-[size:20px_20px] opacity-20 blur-[100px]"></div></div> */}
+      {/* bg */}
+      <span className=" circleBlurR"></span>
+
       {/* <div class="absolute inset-0 -z-10 h-full w-full bg-white "></div> */}
       <main className="px-[104px] py-[64px] flex flex-col relative">
          <h1 className="text-[48px] font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF]">
