@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 function Hero() {
-  return <div className=" bg-[#121212] text-white h-[100vh] ">
+  return <div className=" bg-[#121212] text-white ">
      {/* container  */}
          <motion.main initial={{opacity:0,scale:0.5}} whileInView={{opacity:1, scale:1}} transition={{duration:2}} viewport={{ once: true }}   className="px-[104px] py-[64px] flex items-center justify-between relative ">
             {/* <!-- Grid background --> */}
