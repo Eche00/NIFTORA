@@ -27,12 +27,12 @@ const trademark = <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xm
 
 
   return (
-    <div className=" w-full   relative overflow-hidden">
+    <div className=" w-full   relative overflow-hidden ">
       {/* bg */}
          <span className=" circleBlurLF"></span>
 
       {/* circles  */}
-     <section className="relative h-[110vh]  mt-[150px]">
+     <section className="relative  mt-[150px] h-[1050px]">
          <span className=" w-[1187px] h-[514px] border-[1px] border-[#484848] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 rounded-[50%] rotate-x-180" 
        style={{ transform: ' rotate(165.79deg)' }}></span>
        <span className=" w-[1724px] h-[748px] border-[1px] border-[#484848] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 rounded-[50%] rotate-x-180" 
