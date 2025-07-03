@@ -17,7 +17,7 @@ function Header() {
       </section>
 
       {/* connect wallet  */}
-      <button className=" px-[32px] py-[10px] text-[16px] font-[] rounded-[8px] bg-gradient-to-b from-[#1F51FF] to-[#8A2BE2] text-white cursor-pointer">Connect Wallet</button>
+      <button className=" px-[32px] py-[10px] text-[16px] font-[] rounded-[8px] bg-gradient-to-b from-[#1F51FF] to-[#8A2BE2] text-white cursor-pointer hover:scale-[105%] transition-all duration-300">Connect Wallet</button>
      </main>
     </div>
   )
