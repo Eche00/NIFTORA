@@ -9,7 +9,7 @@ function Header() {
       <section className=" ">{HeaderIcon.logo}</section>
       {/* navigation  */}
       <section className="flex items-center gap-[24px] text-white text-[16px] font-[500]">
-        <p className=" cursor-pointer">Home</p>
+        <p className=" cursor-pointer text-[#B76AFF]">Home</p>
         <p className=" cursor-pointer">Services</p>
         <p className=" cursor-pointer">Explore</p>
         <p className=" cursor-pointer">About</p>
