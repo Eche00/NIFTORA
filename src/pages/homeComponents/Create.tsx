@@ -1,3 +1,4 @@
+import '../../styles/styles.css'
 
 function Create() {
   const wallet = <svg width="65" height="64" viewBox="0 0 65 64" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -21,7 +22,9 @@ const list = <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="
 </svg>
 
   return (
-    <div>
+    <div className='relative'>
+       {/* bg */}
+         <span className=" circleBlurR"></span>
       <main className="px-[104px] py-[64px]">
         <div className=" w-full bg-gradient-to-b from-[#FFFFFF4D]/10 to-[#FFFFFF]/10  pt-[24px] pb-[64px] border-[1px] border-[#FFFFFF]/30 rounded-[24px] flex flex-col gap-[64px] " >
            <h1 className="text-[48px] font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF] ">
