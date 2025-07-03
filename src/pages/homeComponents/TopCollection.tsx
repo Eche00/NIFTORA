@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import { topcollections } from "../../lib/topcollection";
 import '../../styles/styles.css'
 
@@ -40,22 +41,22 @@ function TopCollection() {
   return <div>
     <div className=" relative ">
          {/* bg */}
-         <span className="  rounded-full absolute top-[-150px] right-[0px] ">{circle}</span>
+         <span  className="  rounded-full absolute top-[-150px] right-[0px] ">{circle}</span>
          <span className=" circleBlurL"></span>
          
          <main className="px-[104px] py-[64px] flex flex-col relative">
-            <h1 className="text-[48px] font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF] pb-[50px]">
-              Top Collections
-            </h1>
+             <motion.h1 initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className="text-[48px] font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF]">
+           Top Collections
+         </motion.h1>
         {/*  buttons  */}
-        <div className=' w-full flex items-center justify-center gap-[32px]'>
+        <motion.div initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className=' w-full flex items-center justify-center gap-[32px]'>
            <button className=' text-[24px] text-[#E0E0E0] font-[600]  bg-[#1F51FF] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Art</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Collectibles</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Metaverse</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Virtual Worlds</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Sports</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Music</button>
-        </div>
+        </motion.div>
 
 
     {/* cards  */}
@@ -63,7 +64,7 @@ function TopCollection() {
               
                  {/* each card  */}
                  {topcollections.map((card)=>(
-                  <div className=" max-w-[296px]  max-h-[419px] h-fit w-fit bg-gradient-to-b from-[#FFFFFF4D]/10 to-[#FFFFFF]/10  py-[20px] px-[14px] border-[1px] border-[#FFFFFF]/30 rounded-[24px] flex flex-col gap-[23px] " key={card.title}>
+                  <motion.div initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className=" max-w-[296px]  max-h-[419px] h-fit w-fit bg-gradient-to-b from-[#FFFFFF4D]/10 to-[#FFFFFF]/10  py-[20px] px-[14px] border-[1px] border-[#FFFFFF]/30 rounded-[24px] flex flex-col gap-[23px] " key={card.title}>
                     <img src={card?.img} alt="" className="w-[268px] h-[236px] object-cover rounded-[12px]" />
                     {/* details  */}
                     <div className="flex flex-col gap-[20px]">
@@ -76,7 +77,7 @@ function TopCollection() {
                         <p className="flex flex-col items-end text-[20px] text-[#FFFFFF] font-[600]">${card?.priceinusd}<span className={`text-[14px] ${card?.x >= 15.0 ? 'text-[#1DFF04]':'text-[#FF0404]'} font-[400]`}>{card?.x >= 15.0 ?'+':'-'}{card?.x}%</span></p>
                        </section>
                     </div>
-                  </div>
+                  </motion.div>
                   ))} 
                 </section>
         
