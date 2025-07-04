@@ -26,13 +26,13 @@ const list = <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="
     <div className='relative'>
        {/* bg */}
          <span className=" circleBlurR"></span>
-      <main className="sm:px-[104px] px-[10px] py-[64px]">
+      <main className="md:px-[104px] px-[10px] py-[64px]">
         <div className=" w-full bg-gradient-to-b from-[#FFFFFF4D]/10 to-[#FFFFFF]/10  pt-[24px] pb-[64px] border-[1px] border-[#FFFFFF]/30 rounded-[24px] flex flex-col gap-[64px] " >
           <motion.h1 className="sm:text-[48px] text-[32px] font-[700] sm:leading-[120px] leading-[60px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF] ">
                 Create and Sell Your NFTs
            </motion.h1>
 
-           <section className="flex sm:flex-row flex-col  justify-center gap-[24px] sm:px-0 px-[20px]">
+           <section className="flex md:flex-row flex-wrap  justify-center gap-[24px] md:px-0 px-[20px]">
             {/* each pcocess */}
                <div className=" max-w-[359px] w-full flex flex-col items-center justify-center gap-[24px]">
                 <span>{wallet}</span>
