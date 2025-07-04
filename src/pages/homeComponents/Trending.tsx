@@ -19,7 +19,7 @@ function Trending() {
   const currentCards = trending.slice(currentIndex * cardsPerClick, (currentIndex + 1) * cardsPerClick);
 
   return (
-    <div className="py-[124px] relative">
+    <div className="sm:py-[124px] py-[30px] relative">
       {/* bg */}
       <span className=" circleBlurR"></span>
 
@@ -62,7 +62,7 @@ function Trending() {
         </motion.section>
 
      {/* see more button  */}
-     <div className=' w-full flex items-center justify-center'>
+     <div className=' w-full flex items-center justify-center pt-5 sm:pt-0'>
         <motion.button                   whileInView={{
                     rotate: [0, -10, 10, -10, 10, 0],
                   }}
