@@ -44,12 +44,12 @@ function TopCollection() {
          <span  className="  rounded-full absolute top-[-150px] right-[0px] ">{circle}</span>
          <span className=" circleBlurL"></span>
          
-         <main className="px-[104px] py-[64px] flex flex-col relative">
-             <motion.h1 initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className="text-[48px] font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF]">
+         <main className="sm:px-[104px] px-[10px] py-[64px] flex flex-col relative">
+             <motion.h1 initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className="sm:text-[48px] text-[32px] text-nowrap font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF]">
            Top Collections
          </motion.h1>
         {/*  buttons  */}
-        <motion.div initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className=' w-full flex items-center justify-center gap-[32px]'>
+        <motion.div initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className=' w-full flex items-center sm:justify-center gap-[32px] overflow-scroll scrollbar-hide'>
            <button className=' text-[24px] text-[#E0E0E0] font-[600]  bg-[#1F51FF] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Art</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Collectibles</button>
            <button className=' text-[24px] text-[#E0E0E0] font-[600] bg-transparent border-[1px] border-[#E0E0E0] px-[32px] py-[10px] rounded-[8px] w-fit cursor-pointer'>Metaverse</button>
