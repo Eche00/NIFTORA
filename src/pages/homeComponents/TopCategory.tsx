@@ -4,8 +4,8 @@ import { topcategories } from "../../lib/topcategories";
 function TopCategory() {
   return <div className=" relative ">
            
-           <main className="px-[104px] py-[64px] flex flex-col relative">
-          <motion.h1 initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className="text-[48px] font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF]">
+           <main className="sm:px-[104px] px-[10px] py-[64px] flex flex-col relative">
+          <motion.h1 initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className="sm:text-[48px] text-[32px] text-nowrap font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF]">
            Top Categories
          </motion.h1>
         {/* cards  */}
