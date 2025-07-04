@@ -24,19 +24,19 @@ function Trending() {
       <span className=" circleBlurR"></span>
 
       {/* <div class="absolute inset-0 -z-10 h-full w-full bg-white "></div> */}
-      <main className="px-[104px] py-[64px] flex flex-col relative">
-         <motion.h1 initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className="text-[48px] font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF]">
+      <main className="sm:px-[104px] px-[10px] py-[64px] flex flex-col relative">
+         <motion.h1 initial={{opacity:0,y:100}} whileInView={{opacity:1, y:1}} transition={{duration:2}} viewport={{ once: true }} className="sm:text-[48px] text-[32px] text-nowrap font-[700] leading-[120px] text-center text-transparent bg-clip-text bg-gradient-to-r  from-[#A849FF] to-[#F9FBFF]">
            Trending NFTs
          </motion.h1>
 
       {/* Trending slide  */}
         <motion.section 
-        initial={{opacity:0,scale:0.5}} whileInView={{opacity:1, scale:1}} transition={{duration:2}} viewport={{ once: true }} className="flex items-center gap-[24px] justify-between relative py-[100px]">
+        initial={{opacity:0,scale:0.5}} whileInView={{opacity:1, scale:1}} transition={{duration:2}} viewport={{ once: true }} className="flex sm:flex-row flex-col items-center gap-[24px] sm:justify-between justify-center relative py-[100px]">
         {/* buttons */}
-        <button className="w-[80px] h-[80px] rounded-full bg-[#121212] border-[1px] border-[#E0E0E0] text-[#E0E0E0] text-[40px] flex items-center justify-center absolute top-1/2 left-[30px]  -translate-y-1/2 cursor-pointer  disabled:cursor-not-allowed" onClick={handlePrev} disabled={currentIndex === 0}>
+        <button className="w-[80px] h-[80px] rounded-full bg-[#121212] border-[1px] border-[#E0E0E0] text-[#E0E0E0] text-[40px] flex items-center justify-center absolute sm:top-1/2 sm:left-[30px] top-0  sm:-translate-y-1/2 cursor-pointer  disabled:cursor-not-allowed" onClick={handlePrev} disabled={currentIndex === 0}>
             <IoIosArrowBack />
         </button>
-        <button className="w-[80px] h-[80px] rounded-full bg-[#121212] border-[1px] border-[#E0E0E0] text-[#E0E0E0] text-[40px] flex items-center justify-center absolute top-1/2 right-[30px]  -translate-y-1/2 cursor-pointer  disabled:cursor-not-allowed" onClick={handleNext} disabled={currentIndex >= Math.ceil(trending.length / cardsPerClick) - 1}>
+        <button className="w-[80px] h-[80px] rounded-full bg-[#121212] border-[1px] border-[#E0E0E0] text-[#E0E0E0] text-[40px] flex items-center justify-center absolute sm:top-1/2 sm:right-[30px]  sm:-translate-y-1/2 bottom-0 cursor-pointer  disabled:cursor-not-allowed" onClick={handleNext} disabled={currentIndex >= Math.ceil(trending.length / cardsPerClick) - 1}>
             <IoIosArrowForward />
         </button>
          
