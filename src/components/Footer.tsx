@@ -43,21 +43,21 @@ const trademark = <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xm
       {/* footer  */}
      <footer className=" z-40 w-full absolute top-20 left-0">
       {/* top section  */}
-       <div className=" flex flex-col sm:gap-[64px] gap-[32px] items-center justify-center sm:w-fit w-[90%] mx-auto  sm:pb-[128px] pb-[64px] border-b-[0.5px] border-[#FFFFFF]">
-          <h1 className="sm:text-[48px] text-[32px] font-[700] sm:leading-[120px] leading-[60px] text-center text-transparent bg-clip-text bg-[#F9FBFF] ">
+       <div className=" flex flex-col md:gap-[64px] gap-[32px] items-center justify-center md:w-fit w-[90%] mx-auto  md:pb-[128px] pb-[64px] border-b-[0.5px] border-[#FFFFFF]">
+          <h1 className="md:text-[48px] text-[32px] font-[700] md:leading-[120px] leading-[60px] text-center text-transparent bg-clip-text bg-[#F9FBFF] ">
                 Get More Updates
           </h1>
               <p className="text-[20px] font-[400] max-w-[1200px] text-center text-transparent bg-clip-text bg-[#F9FBFF] ">
                 Subscribe to our mailing list and be the first to know about new feature releases, exclusive NFT drops, and expert tips to <br /> enhance your experience.
               </p>
               <div className=" bg-[#E0E0E0]  max-w-[800px] w-full p-[8px] flex items-center justify-between rounded-[10px] gap-[20px]">
-                <input type="text" className="flex flex-1 h-[40px] outline-none placeholder:text-gray-600 sm:pl-10 pl-1" placeholder="Email Address" />
-                <button className=" py-[10px] sm:px-[32px] px-[24px] sm:text-[20px] text-[16px] font-[600] text-[#E0E0E0] rounded-[8px] bg-gradient-to-b from-[#8A2BE2] to-[#1F51FF]">Subscribe</button>
+                <input type="text" className="flex flex-1 h-[40px] outline-none placeholder:text-gray-600 md:pl-10 pl-1" placeholder="Email Address" />
+                <button className=" py-[10px] md:px-[32px] px-[24px] md:text-[20px] text-[16px] font-[600] text-[#E0E0E0] rounded-[8px] bg-gradient-to-b from-[#8A2BE2] to-[#1F51FF]">Subscribe</button>
               </div>
        </div>
 
        {/* bottom section  */}
-       <section className=" sm:pt-[128px] pt-[64px] flex sm:flex-row flex-wrap items-start justify-between gap-y-[10px] sm:max-w-[1050px] sm:w-fu w-[90%] mx-auto">
+       <section className=" md:pt-[128px] pt-[64px] flex md:flex-row flex-wrap items-start justify-between gap-y-[10px] md:max-w-[1050px] md:w-fu w-[90%] mx-auto">
         <div className="flex flex-col gap-[32px]">
           <span>{HeaderIcon.logo}</span>
           <p className="text-[20px] font-[400] text-[#F9FBFF]  flex flex-col  gap-[24px] max-w-[400px] leading-[206%]">
@@ -73,8 +73,8 @@ const trademark = <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xm
 
         {/* section 2 */}
         <div className="flex flex-col gap-[32px]">
-          <h2 className="sm:text-[32px] text-[24px] font-[700] text-[#E0E0E0] ">Marketplace</h2>
-          <ul className="sm:text-[20px] text-[16px] font-[400] text-[#F9FBFF]  flex flex-col  gap-[24px]">
+          <h2 className="md:text-[32px] text-[24px] font-[700] text-[#E0E0E0] ">Marketplace</h2>
+          <ul className="md:text-[20px] text-[16px] font-[400] text-[#F9FBFF]  flex flex-col  gap-[24px]">
             <li>Explore</li>
             <li>Articles</li>
             <li>How it Works</li>
@@ -83,8 +83,8 @@ const trademark = <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xm
         </div>
         {/* section 3 */}
         <div className="flex flex-col gap-[32px]">
-          <h2 className="sm:text-[32px] text-[24px] font-[700] text-[#E0E0E0] ">Links</h2>
-          <ul className="sm:text-[20px] text-[16px] font-[400] text-[#E0E0E0]  flex flex-col  gap-[24px]">
+          <h2 className="md:text-[32px] text-[24px] font-[700] text-[#E0E0E0] ">Links</h2>
+          <ul className="md:text-[20px] text-[16px] font-[400] text-[#E0E0E0]  flex flex-col  gap-[24px]">
             <li>Tokens</li>
             <li>API</li>
             <li>Big Bounty</li>
@@ -94,7 +94,7 @@ const trademark = <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xm
        </section>
 
      </footer>
-       <p className=" absolute bottom-4 left-1/2 -translate-x-1/2 text-[16px] font-[400] text-[#FFFFFF] flex sm:flex-row flex-col items-center gap-[10px] text-center "><span>{trademark}</span> 2025 NIFTORA. all Right Reserved </p>
+       <p className=" absolute bottom-4 left-1/2 -translate-x-1/2 text-[16px] font-[400] text-[#FFFFFF] flex md:flex-row flex-col items-center gap-[10px] text-center "><span>{trademark}</span> 2025 NIFTORA. all Right Reserved </p>
     </div>
   )
 }
