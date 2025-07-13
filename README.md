@@ -39,3 +39,5 @@ MIT License — feel free to use, fork, and contribute.
 
 Built with love during the grind.  
 Follow the journey: [@Eche_codes](https://twitter.com/Eche_codes)
+
+Designed By PIXEL
